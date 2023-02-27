@@ -56,7 +56,7 @@ public class Cliente extends Thread{
         	try
             { 
         		this.socket = new Socket(this.address, this.port); 
-                System.out.println("Connected"); 
+                System.out.println("Connected Digite la cedula a buscar ejemplo 1231234"); 
             
              // sets timeout for server response
                 this.socket.setSoTimeout(2000); // 5 seconds
